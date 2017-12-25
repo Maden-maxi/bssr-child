@@ -1,0 +1,21 @@
+.custom-faq  .fusion-accordian .panel-heading .panel-title a {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: #ffffff;
+    -webkit-box-shadow: inset 5px 0 0 #000 !important;
+    -moz-box-shadow: inset 5px 0 0 #000 !important;
+    box-shadow: inset 5px 0 0 #000 !important;
+}
+
+.custom-faq.fusion-faq-shortcode .fusion-accordian .panel-title a .fa-fusion-box {
+    background-color: transparent;
+    color: #000 !important;
+}
+
+.custom-faq.fusion-faq-shortcode .fusion-accordian .panel-title a .fa-fusion-box:before {
+    font-size: 32px !important;
+}
+.custom-faq .fusion-accordian .panel-title .fusion-toggle-heading {
+    font-size: 16px;
+    font-weight: 600;
+}

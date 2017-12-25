@@ -1,0 +1,10 @@
+.fusion-footer-menu {
+    padding-left: 0;
+    list-style-type: none;
+}
+.fusion-footer-menu li {
+    display: inline-block;
+}
+.fusion-footer-menu a {
+    padding: 15px;
+}

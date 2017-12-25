@@ -1,0 +1,77 @@
+.storage-website-link {
+    color: #000000;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.single-padding-left {
+    padding-left: 45px !important;
+    padding-right: 0 !important;
+    width: 48% !important;
+}
+.single-padding-right {
+    width: 52% !important;
+}
+.fusion-post-title-meta-wrap .fusion-post-title-meta-wrap-column {
+    padding-left: 0;
+    padding-right: 0;
+}
+.fusion-post-title-meta-wrap-column h2.entry-title.fusion-post-title{
+    font-family: 'Futura-Medium', sans-serif !important;
+    font-size: 22px !important;
+    font-weight: 500 !important;
+}
+.text-right {
+    text-align: right;
+}
+
+.single-navigation.single-navigation-reviews {
+    margin-bottom: 0;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.review_tabs.fusion-tabs.horizontal-tabs.clean .nav {
+    text-align: left;
+}
+
+.review_tabs.fusion-tabs.horizontal-tabs.clean .tab-content{
+    margin-top: 0;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.08);
+    color: #555555;
+}
+
+#wrapper .review_tabs.fusion-tabs.fusion-tabs-1.clean .nav-tabs li {
+    /*box-shadow: 4px 0px 5px 0 rgba(0,0,0,0.08), 0px 0px 0px 0 rgba(0,0,0,0.08);*/
+    max-width: 150px;
+    width: 150px;
+}
+#wrapper .review_tabs.fusion-tabs.fusion-tabs-1.clean .nav-tabs li a {
+    background: url('../img/tab.png') 0 0  no-repeat;
+    background-size: 100% 100%;
+    border: 0 !important;
+    font-size: 16px !important;
+    padding: 8px !important;
+    text-align: left;
+}
+#wrapper .review_tabs.fusion-tabs.fusion-tabs-1.clean .nav-tabs li a h4 {
+    font-size: 16px !important;
+}
+
+#wrapper .review_tabs.fusion-tabs.fusion-tabs-1 .nav-tabs li.active a,
+#wrapper .review_tabs.fusion-tabs.fusion-tabs-1 .nav-tabs li.active a:hover,
+#wrapper .review_tabs.fusion-tabs.fusion-tabs-1 .nav-tabs li.active a:focus {
+    /*
+    -webkit-box-shadow: inset 0 4px 0 #000 !important;
+    -moz-box-shadow: inset 0 4px 0 #000 !important;
+    box-shadow: inset 0 4px 0 #000 !important;
+    */
+    background: url('../img/tab-active.png') 0 0  no-repeat;
+    background-size: 100% 100%;
+}
+#wrapper .review_tabs.fusion-tabs.fusion-tabs-1 .nav-tabs li.active a h4,
+#wrapper .review_tabs.fusion-tabs.fusion-tabs-1 .nav-tabs li.active a:hover h4,
+#wrapper .review_tabs.fusion-tabs.fusion-tabs-1 .nav-tabs li.active a:focus h4 {
+    font-weight: 600 !important;
+}

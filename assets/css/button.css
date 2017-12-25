@@ -1,0 +1,6 @@
+.fusion-button.button-3d.theme-button {
+    box-shadow: inset 0 1px 0 #fff, 4px 4px 0 #000000, 1px 6px 6px 3px rgba(0,0,0,0.3) !important;
+    font-size: 19px;
+    font-family: 'Futura-Medium', sans-serif;
+    font-weight: 500;
+}

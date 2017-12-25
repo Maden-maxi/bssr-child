@@ -1,0 +1,18 @@
+.widget {
+    background-color: #ffffff;
+    box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.08);
+}
+.widget-title {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+
+.fusion-main-menu > ul > li > a.fusion-bar-highlight {
+    border-top: 0;
+    border-bottom: 3px solid transparent;
+}  
+.fusion-main-menu > ul > li.current_page_item > a.fusion-bar-highlight {
+    border-color: #fff;
+}

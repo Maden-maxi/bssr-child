@@ -1,0 +1,19 @@
+.d-flex {
+    display: flex;
+}
+.justify-content-end {
+    justify-content: flex-end;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
+.clear-both {
+    clear: both;
+}
+
+.pb-2 {
+    padding-bottom: 20px;
+}

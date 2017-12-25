@@ -1,0 +1,17 @@
+.avada-child-site-name, .avada-child-site-description {
+    line-height: 1;
+}
+.avada-child-site-name {
+    font-family: 'PortagoITC TT', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 0;
+}
+.avada-child-site-description {
+    font-family: 'Abadi MT Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #4c4c4c;
+    margin-top: 0;
+}

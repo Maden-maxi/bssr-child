@@ -1,0 +1,8 @@
+.searchform .search-table .search-button input.searchsubmit[type="submit"] {
+    font-size: 29px;
+    width: 40px;
+}
+.searchform .search-table .search-field input.s {
+    font-size: 15px;
+    border-width: 2px;
+}

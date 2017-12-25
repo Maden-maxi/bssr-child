@@ -8,10 +8,15 @@ Version: 1.0.0
 Text Domain:  Avada
 */
 
-.fusion-footer-menu {
-    padding-left: 0;
-    list-style-type: none;
-}
-.fusion-footer-menu li {
-    display: inline-block;
+
+
+.fusion-widget-area .widget .recentcomments .comment-author-link a:before,
+.fusion-widget-area .widget_archive li a:before,
+.fusion-widget-area .widget_categories li a:before,
+.fusion-widget-area .widget_links li a:before,
+.fusion-widget-area .widget_meta li a:before,
+.fusion-widget-area .widget_nav_menu li a:before,
+.fusion-widget-area .widget_pages li a:before,
+.fusion-widget-area .widget_recent_entries li a:before {
+    content: normal;
 }

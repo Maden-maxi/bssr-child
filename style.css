@@ -20,3 +20,12 @@ Text Domain:  Avada
 .fusion-widget-area .widget_recent_entries li a:before {
     content: normal;
 }
+
+.ad {
+    padding: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #7a7a7a;
+}

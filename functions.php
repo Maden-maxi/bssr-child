@@ -77,3 +77,11 @@ function avada_child_title_tag_line() {
 	<?php
 }
 add_action( 'avada_logo_append', 'avada_child_title_tag_line' );
+
+function ad() {
+    ?>
+    <div class="ad">
+        Advertisement
+    </div>
+    <?php
+}

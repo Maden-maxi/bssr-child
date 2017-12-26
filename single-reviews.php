@@ -17,13 +17,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 <section id="content" <?php Avada()->layout->add_style( 'content_style' ); ?>>
     <?php fusion_breadcrumbs() ?>
 	<?php $post_pagination = get_post_meta( $post->ID, 'pyre_post_pagination', true ); ?>
-
+    <?php ad() ?>
 
 	<?php while ( have_posts() ) : ?>
 		<?php the_post(); ?>
 		<article id="post-<?php the_ID(); ?>" <?php post_class( 'post' ); ?>>
             <?php
-            the_widget('Fusion_Widget_Ad_125_125', array());
+            #the_widget('Fusion_Widget_Ad_125_125', array());
             ?>
 			<?php $full_image = ''; ?>
 			<?php if ( 'above' == Avada()->settings->get( 'blog_post_title' ) ) : ?>
@@ -218,6 +218,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                 }
                 $tabs .= '[/fusion_tabs]';
                 echo do_shortcode($tabs);
+                ad();
                 ?>
 				<?php do_action( 'avada_after_additional_post_content' ); ?>
 			<?php endif; ?>
